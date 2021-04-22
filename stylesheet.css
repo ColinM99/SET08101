@@ -1,3 +1,8 @@
+/* 
+    CSS file to provide the styling for the Holiday Horror, a text-based adventure quiz game
+    Author: Colin McDaid
+    Last edited: 22/04/2021 22:32
+*/
 body, html {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,7 +14,7 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 8% auto 10% 10% 5%;
-    grid-template-areas:
+    grid-template-areas: /* Defines the layout of the page */
         "header header"
         "image text"
         "ans1 ans2"
